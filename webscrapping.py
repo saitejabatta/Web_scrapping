@@ -71,7 +71,7 @@ def dataframe(tables,languages):
             print('/n')'''
 
 #calling function
-dfs = dataframe(tables,t)
+dfs = dataframe(tables,languages)
 
 # Combine all DataFrames into a single DataFrame
 combined_df = pd.concat(dfs, ignore_index=True)
